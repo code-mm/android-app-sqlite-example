@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="event"
+        android:textSize="30dp">
+
+
+    </TextView>
+
+
+    <Button
+        android:id="@+id/createDb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="createDb" />
+
+    <Button
+        android:id="@+id/insert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="insert" />
+
+
+    <Button
+        android:id="@+id/queryAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="queryAll" />
+
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="delete" />
+
+    <Button
+        android:id="@+id/addEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="addEvent" />
+
+    <Button
+        android:id="@+id/addEvent1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="addEvent1" />
+
+
+    <Button
+        android:id="@+id/addEvent2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="addEvent2" />
+
+</LinearLayout>
